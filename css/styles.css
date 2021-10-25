@@ -304,7 +304,7 @@ header {
 /* ---------------footer---------------- */
 .footer {
   background-color: var(--footer-and-banner-background-color);
-  padding: 60px 0;
+  padding-bottom: 60px;
 }
 .footer-container {
   display: flex;
@@ -323,7 +323,7 @@ header {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-contacts-item:first-child {
@@ -342,15 +342,16 @@ header {
   line-height: 1.19;
   color: var(--white-color);
   margin-bottom: 20px;
+  padding-top: 60px;
 }
 .footer-cocial-text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
+  padding-top: 75px;
 }
 .footer-cocial-icon-list {
   display: flex;
@@ -420,6 +421,11 @@ header {
   flex-basis: calc((100% / 3) - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.portfolio-cards-item:hover,
+.portfolio-cards-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-cards-description {
   padding: 20px 24px;
