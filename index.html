@@ -11,6 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +19,6 @@
       rel="stylesheet"
     />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -60,7 +60,7 @@
     </header>
     <main>
       <section class="banner">
-        <div class="container">
+        <div class="container container-banner">
           <h1 class="title-banner">
             Эффективные решения <br />
             для вашего бизнеса
@@ -73,56 +73,53 @@
           <h2 class="visually-hidden">Особенности</h2>
           <ul class="fiatures-icon-list">
             <li class="fiatures-icon-item">
-              <svg class="icon-fiatures" width="70px" height="70px">
-                <use href="./images/symbol-defs.svg#icon-antenna"></use>
-              </svg>
-            </li>
-            <li class="fiatures-icon-item">
-              <svg class="icon-fiatures" width="70px" height="70px">
-                <use href="./images/symbol-defs.svg#icon-clock"></use>
-              </svg>
-            </li>
-            <li class="fiatures-icon-item">
-              <svg class="icon-fiatures" width="70px" height="70px">
-                <use href="./images/symbol-defs.svg#icon-diagram"></use>
-              </svg>
-            </li>
-            <li class="fiatures-icon-item">
-              <svg class="icon-fiatures" width="70px" height="70px">
-                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
-              </svg>
-            </li>
-          </ul>
-          <ul class="features-list">
-            <li class="features-item">
+              <div class="fiatures-icon">
+                <svg class="icon-fiatures" width="70px" height="70px">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="features-title">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-item">
-              <h3 class="features-title">Пунктуальность</h3>
+            <li class="fiatures-icon-item">
+              <div class="fiatures-icon">
+              <svg class="icon-fiatures" width="70px" height="70px">
+                <use href="./images/symbol-defs.svg#icon-clock"></use>
+              </svg>
+            </div>
+            <h3 class="features-title">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-item">
-              <h3 class="features-title">Планирование</h3>
-              <p class="features-text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
+            <li class="fiatures-icon-item">
+              <div class="fiatures-icon">
+              <svg class="icon-fiatures" width="70px" height="70px">
+                <use href="./images/symbol-defs.svg#icon-diagram"></use>
+              </svg>
+            </div>
+            <h3 class="features-title">Планирование</h3>
+            <p class="features-text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
             </li>
-            <li class="features-item">
-              <h3 class="features-title">Современные технологии</h3>
-              <p class="features-text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
+            <li class="fiatures-icon-item">
+              <div class="fiatures-icon">
+              <svg class="icon-fiatures" width="70px" height="70px">
+                <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+              </svg>
+            </div>
+            <h3 class="features-title">Современные технологии</h3>
+            <p class="features-text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
             </li>
-          </ul>
         </div>
       </section>
       <section class="features-image">
@@ -397,37 +394,37 @@
           <h2 class="title-h2">Постоянные клиенты</h2>
           <ul class="client-list">
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo"></use></svg
               ></a>
             </li>
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo-1"></use></svg
               ></a>
             </li>
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo-2"></use></svg
               ></a>
             </li>
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo-5"></use></svg
               ></a>
             </li>
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo-6"></use></svg
               ></a>
             </li>
             <li class="client-item">
-              <a href="#"
+              <a href="#" class="client-item-link"
                 ><svg class="client-icon" width="106px" height="60px">
                   <use href="./images/symbol-defs.svg#icon-logo-7"></use></svg
               ></a>
